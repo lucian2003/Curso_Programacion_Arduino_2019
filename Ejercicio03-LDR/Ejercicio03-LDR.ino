@@ -16,12 +16,12 @@ void loop() {
   
   int sensorValue = analogRead(PIN_LDR);
   
-  while (max(maximo,sensorValue) > maximo) {
-    maximo = max(maximo,sensorValue);
+  if ((maximo,sensorValue) > maximo) {
+    maximo = (maximo,sensorValue);
   }
 
-  while (max(minimo,sensorValue) < minimo) {
-    minimo = max(minimo,sensorValue);
+  if ((minimo,sensorValue) < minimo) {
+    minimo = (minimo,sensorValue);
   }
   
   Serial.print(sensorValue);
