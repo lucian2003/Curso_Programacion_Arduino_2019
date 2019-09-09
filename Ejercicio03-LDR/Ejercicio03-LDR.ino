@@ -32,7 +32,7 @@ void loop() {
 
   lcd.clear();
   lcd.setCursor(0, 0);
-  lcd.print("Max: ");
+  lcd.print("Max:");
   lcd.print(maximo);
   lcd.setCursor(0, 1);
   lcd.print("Min:");
