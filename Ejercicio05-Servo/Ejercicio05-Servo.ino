@@ -1,4 +1,3 @@
-  
 #include <Servo.h>
 
 #define PIN_SERVO 9

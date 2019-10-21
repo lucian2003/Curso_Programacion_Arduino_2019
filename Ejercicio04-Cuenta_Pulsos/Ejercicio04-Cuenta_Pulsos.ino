@@ -51,7 +51,7 @@ void imprimePulsaciones() {
 
   lcd.clear();
   lcd.setCursor(0, 0);
-  lcd.print("Contador A:");
+  lcd.print("Contador A: ");
   lcd.print(pulsos_a);
   lcd.setCursor(0, 1);
   lcd.print("Contador B:");
